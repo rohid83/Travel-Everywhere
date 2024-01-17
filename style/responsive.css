@@ -34,8 +34,47 @@
     "d d d d"
     "e e e e"
     "f f f f"
-    "g g g g"
-    ;
+    "g g g g";
+    width: 100%;
+    
+}
+.ch{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+#simple{
+    display: flex;
+    flex-direction: column;
+}
+#Newsletter{
+    display: flex;
+    flex-direction: column;
+   
+}
+.newsletter-image{
+    width: 80%;
+    height: 300px;
+}
+.travel-com{
+    width: 194px;
+    height: 60px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    margin-top: 170px;
+    margin-left: 150px;
+
 }
     
 }
+
+/* @media screen and (min-width:601px) and (max-width:992px) {
+    #Our-Popular-Tours{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        margin-top: 40px;
+    }
+
+
+} */
